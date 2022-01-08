@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 7561762577050491836}
   - component: {fileID: 8398303097987559814}
   - component: {fileID: 663600021182188565}
-  - component: {fileID: 2107328736451554866}
+  - component: {fileID: -3712967260349225755}
   m_Layer: 0
   m_Name: Acorn
   m_TagString: Untagged
@@ -241,7 +241,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyHealth: {fileID: 8398303097987559814}
   DieOnAnyCollision: 1
---- !u!114 &2107328736451554866
+--- !u!114 &-3712967260349225755
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -250,10 +250,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4410554903870592215}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f9817006966bb84eb11a0ea4db8a1ef, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e6c4491b2d0f464aadc431a2edf1fea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DamageValue: 1
+  DamageValue: 3
 --- !u!1 &9186875599506568213
 GameObject:
   m_ObjectHideFlags: 0

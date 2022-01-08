@@ -314,7 +314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LeftTarget: {fileID: 8986243963229898213}
   RightTarget: {fileID: 8986243962150257930}
-  Speed: 10
+  Speed: 12
   StopTime: 1
   CurrentDirection: 0
   EventOnLeftTarget:
@@ -399,7 +399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf207f74fc5e7494faa0a2a2792588b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 3
+  Health: 5
   EventOnTakeDamage:
     m_PersistentCalls:
       m_Calls:

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class PlayerHealth : MonoBehaviour
     //public AudioSource TakeDamageSound ;
     public AudioSource AddHealthSound;
     public HealthUI HealthUI;
+
    //  public DamageScreen DamageScreen;
    //public Blink Blink;
 
@@ -57,7 +59,7 @@ public class PlayerHealth : MonoBehaviour
     }
     void Die()
     {
-
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     // Update is called once per frame
     void Update()
